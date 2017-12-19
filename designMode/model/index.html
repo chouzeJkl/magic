@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>策略模式</title>
+</head>
+<body>
+<div style="position: absolute;background: blue;" id="div">hello world</div>
+ <!--<script src="./index.js"></script>-->
+ <!--<script src="./second.js"></script>-->
+ <script src="./tween.js"></script>
+ <script src="./animate.js"></script>
+<script>
+    var div = document.getElementById('div');
+    var animate = new Animate(div);
+    animate.start('left', 600, 1000, 'easeOut');
+</script>
+</body>
+</html>
