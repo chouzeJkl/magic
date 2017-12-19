@@ -8,7 +8,6 @@ const arrayClass = '[object Array]',
       numberClass = '[object Number]',
       regexpClass = '[object Regexp]',
       stringClass = '[object String]';
-//
 const isArray = (value) => {
     return toString.call(value) === arrayClass;
 };
@@ -29,4 +28,13 @@ const isRegexp = function(value) {
 };
 const isString = function(value) {
     return toString.call(value) === stringClass;
+};
+export default {
+    isArray,
+    isBool,
+    isDate,
+    isFunc,
+    isNum,
+    isRegexp,
+    isString,
 };
