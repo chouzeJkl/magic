@@ -19,3 +19,6 @@
 7. 从代码仓库克隆代码到本地: git clone 'URL地址'
 8. 切换代码分支: git checkout '分支名称'
 9. 创建分支: git branch '分支名称'
+10. 版本回退: git reset --hard 提交的Id
+11. 回退到最近一次的提交状态: git reset --hard head
+12. 提交新分支到远程仓库: git push 版本:版本
