@@ -53,3 +53,5 @@ const element = React.createElement(
 至于jsx的语法，基本上和HTML的类似，可以内部编写事件和样式。
 但是jsx的元素不局限于HTML中的元素，而是可以使任何一个react的组件，可以使用原生的HTML元素组合出我们所需要的react组件。
 判断是HTML元素还是react组件的原则是看第一个字母是否大写。
+### JSX进步还是退步
+从传统的角度来说HTML编写页面的结构，CSS控制样式，JavaScript负责行为，一个页面应该是由这三种语言分开去完成的，而JSX可以将这三者放在一个文件里进行编写，变成一个高耦合的开发形式。
