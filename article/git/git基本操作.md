@@ -22,3 +22,4 @@
 10. 版本回退: git reset --hard 提交的Id
 11. 回退到最近一次的提交状态: git reset --hard head
 12. 提交新分支到远程仓库: git push 版本:版本
+13. 设置代码的换行符问题: git config --global core.autocrlf false
