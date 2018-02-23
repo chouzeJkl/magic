@@ -1,5 +1,5 @@
-### jsx
-jsx是一种JavaScript的语法扩展，看起来比较像模板语言，像是在js中编写HTML，但是事实上它是完全在JavaScript内部实现的。
+### 什么是JSX
+JSX 是一种JavaScript的语法扩展，看起来比较像模板语言，像是在js中编写HTML，但是事实上它是完全在JavaScript内部实现的。
 ```
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
